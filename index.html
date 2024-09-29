@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <!-- 2番目にfont awesome 3番目にgoogle font 4番目にbootstrap icon-->
+  <!--slick-theme.cssはslickのサイトの「Add slick.css in your <head>」の2行目を貼り付ける-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="style.css">
+  <!--最後の2つのslickはslickからダウンロードしてslick-1.8をslickにして書き換えたもの-->
+  <title>レスポンシブ対応knightone</title>
+</head>
+
+<body>
+  <div class="wrapper">
+      <div class="knightone-top">
+          <div class="knightone-padding">
+            <header>
+                <div class="container">
+                    <div class="row">
+                      <nav class="navbar navbar-expand-lg navbar-light rounded" aria-label="Eleventh navbar example" class="header">
+                          <div class="container-fluid justify-content-between">
+                            
+                              <h2 class="text-white text-nowrap">Knightone</h2>
+                              <button class="navbar-toggler order-3 order-md-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" class="navbarsExample09">
+                                <ul class="navbar-nav mb-2 mb-lg-0 mt-auto text-white ms-auto">
+                                  <li class="nav-item">
+                                      <a class="nav-link text-white me-3" href="#">Home</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link text-white me-3" href="#">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link text-white me-3" href="#">Service</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link text-white me-3" href="#">Team</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link text-white me-3" href="#">Portofolio</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link text-white me-3" href="#">Pricing</a>
+                                  </li>
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white me-3" href="#" class="navbarDarkDropdownMenuLink"
+                                      role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Drop Down
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                                      <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                                      <li><a class="dropdown-item" href="#">Deep Drop Down</a></li>
+                                      <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                                      <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                                      <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                                    </ul>
+                                  </li>
+                                  <li class="nav-item me-3">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                  </li>
+                                </ul> 
+                              </div>
+                              <div class="order-2 order-md-3">
+                                <a type="button" class="btn green rounded-pill text-nowrap ms-3">Get Started</a>
+                              </div>
+                          </div>
+                        </nav>
+                    </div>
+                </div><!--containerのdiv-->
+            </header>
+            <div class="container">
+                <div class="text-center">
+                      <h1 class="fw-bold text-white">KnightOne - Create Bootstrap Website Template</h1>
+                      <h4 class="text-white">We are team of designers making websites with Bootstrap</h4>
+                </div>
+           </div><!--containerのdiv-->
+          </div><!--knight-paddingのdiv-->
+      </div><!--knightone-topのdiv-->
+      <div class="knightone-about" class="px-5">
+            <div class="container">
+                <div class="text-start">
+                    <div class="">
+                       <h1 class="fw-bold text-dark theme">About Us</h1>
+                    </div>
+                    <p class="py-5">
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+                       Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. 
+                       Quia fugiat sit in iste officiis commodi quidem hic quas.
+                     </p>
+                </div>
+                <div class="row">
+                     <div class="col-md-6">
+                         <ul>
+                            <li>
+                                <h6 class="fw-bold">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                               </h6>
+                            </li>
+                            <li>
+                                <div class="d-flex">
+                                    <i class="fas fa-check-double green pe-3 fa-sm"></i>
+                                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-itmes-start">
+                                    <i class="fas fa-check-double green pe-3 fa-sm"></i>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit</p>
+                                   </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-start">
+                                    <i class="fas fa-check-double green pe-3 fa-sm"></i>
+                                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                                </div>
+                            </li>
+                         </ul>
+                     </div>
+                     <div class="col-md-6">
+                         <p>
+                             Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+                             qui officia deserunt mollit anim id est laborum.
+                         </p>
+                         <button type="button" class="btn btn-outline-success">Learn More</button>
+                     </div>
+                </div>
+            </div><!--containerのdiv-->
+      </div><!--knightone-aboutのdiv-->
+      <div class="knightone-services" class="px-5">
+                <div class="container">
+                    <div class="text-start">
+                        <h1 class="fw-bold text-dark theme">Services</h1>
+                        <p class="py-5">
+                           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+                           Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. 
+                           Quia fugiat sit in iste officiis commodi quidem hic quas.
+                       </p>
+                   </div>
+                   <div class="row">
+                         <div class="col-md-4 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                   <div class="text-start">
+                                       <i class="fas fa-basketball-ball green fa-4x"></i>
+                                       <h2 class="fw-bold">Lorem Ipsum</h2>
+                                      <p class="mb-3">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                   <div class="text-start">
+                                       <i class="fas fa-copy green fa-4x"></i>
+                                       <h2 class="fw-bold">Sed ut perspiciatis</h2>
+                                       <p class="mb-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                   <div class="text-start">
+                                       <i class="far fa-circle green fa-4x"></i>
+                                       <h2 class="fw-bold">Sed ut perspiciatis</h2>
+                                       <p class="mb-3">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                   <div class="text-start">
+                                       <i class="fas fa-globe-asia green fa-4x"></i>
+                                       <h2 class="fw-bold">Nemo Enim</h2>
+                                       <p class="mb-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                   <div class="text-start">
+                                       <i class="fas fa-tv green fa-4x"></i>
+                                       <h2 class="fw-bold">Dele cardo</h2>
+                                       <p class="mb-3">Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="col-md-4 mb-3">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                   <div class="text-start">
+                                       <i class="fab fa-fort-awesome green fa-4x"></i>
+                                       <h2 class="fw-bold">Divera don</h2>
+                                       <p class="mb-3">Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                                   </div>
+                                </div>
+                            </div>
+                         </div>
+                   </div>
+                </div><!--containerのdiv-->
+      </div><!--knightone-servicesのdiv-->
+      <div class="knightone-call" class="px-5">
+          <!--rowやcolを使わなくても常にcontainerを書いておくことで見た目を良くする-->
+          <div class="container">
+            <div class="knightone-call-content">
+                <div class="text-start">
+                   <h1 class="fw-bold text-white">Call To Action</h1>
+                 </div>
+               <div class="row">
+                   <div class="d-md-flex justify-content-md-between text-center">
+                       <p class="text-white text-start me-3">
+                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                       </p>
+                       <button type="button" class="btn green btn-lg text-nowrap rounded-pill">Call To Action</button>
+                   </div>
+                </div>
+            </div>
+          </div><!--containerのdiv-->
+      </div><!--knightone-callのdiv-->
+      <div class="knightone-main" class="px-5">
+                <div class="container">
+                    <div class="row mt-5">
+                         <div class="col-md-6 order-md-2 mb-3">
+                              <img src="images/computer-woman.jpg" class="knightone-computer-woman">
+                         </div>
+                         <div class="col-md-6 order-md-1">
+                                <div class="d-flex mb-3">
+                                    <i class="far fa-sticky-note green fa-3x me-3"></i>
+                                    <div>
+                                        <h6 class="fw-bold">Est labore ad</h6>
+                                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <i class="fas fa-cube green fa-3x me-3"></i>
+                                    <div>
+                                        <h6 class="fw-bold">Harum esse qui</h6>
+                                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <i class="far fa-images green fa-3x me-3"></i>
+                                    <div>
+                                        <h6 class="fw-bold">Aut occaecati</h6>
+                                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-3">
+                                    <i class="far fa-gem green fa-3x me-3"></i>
+                                    <div>
+                                        <h6 class="fw-bold">Beatae veritatis</h6>
+                                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                    </div>
+                                </div>
+                         </div>
+                    </div>
+               </div><!--containerのdiv-->
+      </div><!--knightone-mainのdiv-->
+      <div class="knightone-signboard" class="px-5">
+            <div class="container">
+                <div class="row">
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-myob.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-belimo.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-lifegroups.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-lilly.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-citrus.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-trustly.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-oldendorff.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-md-3 g-0">
+                     <div class="card h-100 w-100">
+                         <div class="card-body">
+                             <div class="d-flex justify-content-center align-items-center">
+                                 <img src="images/knightone-grabyo.png" class="card-signboard">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                </div>
+            </div><!--containerのdiv-->
+      </div><!--knightone-signboardのdiv-->
+      <div class="knightone-number" class="px-5">
+                <div class="container">
+                    <div class="text-center">
+                          <h1 class="fw-bold text-white">What we have achieved so far</h1>
+                        <p class="text-white mb-3">Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
+                    </div>
+                    <div class="row">
+                         <div class="col-md-3 col-6 mb-3">
+                             <div class="text-center">
+                                  <h1 class="green fw-bold">232</h1>
+                                  <p class="text-white">Clients</p>
+                             </div>
+                         </div>
+                         <div class="col-md-3 col-6 mb-3">
+                            <div class="text-center">
+                                <h1 class="green fw-bold">521</h1>
+                                <p class="text-white">Projects</p>
+                            </div>
+                         </div>
+                         <div class="col-md-3 col-6 mb-3">
+                            <div class="text-center">
+                                <h1 class="green fw-bold">1463</h1>
+                                <p class="text-white">Hours Of Support</p>
+                            </div>
+                         </div>
+                         <div class="col-md-3 col-6 mb-3">
+                            <div class="text-center">
+                                <h1 class="green fw-bold">15</h1>
+                                <p class="text-white">Hard Workers</p>
+                            </div>
+                         </div>
+                    </div>
+               </div><!--containerのdiv-->
+      </div><!--knightone-numberのdiv-->
+      <div class="knightone-portfolio" class="px-5">
+           <div class="container">
+              <div class="text-start">
+                <h1 class="fw-bold text-dark theme">Portfolio</h1>
+                <p class="py-5">
+                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+                    Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. 
+                    Quia fugiat sit in iste officiis commodi quidem hic quas.
+                </p>
+             </div>
+                  <!--isotopeを使わないため100%近づけない-->
+             <div class="row">
+                <div class="d-flex justify-content-center filtering">
+                        <div class="btn green knightone-portfolio-button me-3 active" data-filter="all">All</div>
+                        <div class="btn green knightone-portfolio-button me-3" data-filter="app">App</div>
+                        <div class="btn green knightone-portfolio-button me-3" data-filter="card-fil">Card</div>
+                        <div class="btn green knightone-portfolio-button me-3" data-filter="web">Web</div>
+                </div>
+             </div>
+             <div class="filtering-list-cont row">
+                <div class="filtering-list app col-md-4 col-6 p-3" data-color="app"><div class="curology"></div></div>
+                <div class="filtering-list web col-md-4 col-6 p-3" data-color="web"><div class="cookie-tea"></div></div>
+                <div class="filtering-list app col-md-4 col-6 p-3" data-color="app"><div class="plant"></div></div>
+                <div class="filtering-list app col-md-4 col-6 p-3" data-color="app"><div class="wood-chair"></div></div>
+                <div class="filtering-list web col-md-4 col-6 p-3" data-color="web"><div class="stand"></div></div>
+                <div class="filtering-list card-fil col-md-4 col-6 p-3" data-color="card-fil"><div class="glasses"></div></div>
+                <div class="filtering-list card-fil col-md-4 col-6 p-3" data-color="card-fil"><div class="camera"></div></div>
+                <div class="filtering-list web col-md-4 col-6 p-3" data-color="web"><div class="watch"></div></div>
+                <div class="filtering-list card-fil col-md-4 col-6 p-3" data-color="card-fil"><div class="drink"></div></div>
+             </div>
+             </div>
+           </div><!--containerのdiv-->
+      </div><!--knightone-portfolioのdiv-->
+      <div class="knightone-pricing">
+            <div class="container">
+                <div class="text-start">
+                     <h1 class="text-dark theme">Pricing</h1>
+                     <p class="py-5">
+                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+                        Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. 
+                        Quia fugiat sit in iste officiis commodi quidem hic quas.
+                     </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body card-portfolio">
+                                <div class="d-flex flex-column align-items-center justify-content-between">
+                                     <h6 class="fw-bold text-dark mt-3">Free</h6>
+                                     <h1 class="green">0<span class="text-secondary" class="knightone-money">/ month</span></h1>
+                                     <p>Aida dere</p>
+                                     <p>Nec feugiat nisl</p>
+                                     <p>Nulla at volutpat dola</p>
+                                     <p><del>Pharetra massa</del></p>
+                                     <p><del>Massa ultricies mi</del></p>
+                                     <div type="button" class="btn btn-outline-green rounded-pill green mb-auto">Buy Now</div>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="d-flex flex-column align-items-center justify-content-between">
+                                    <button type="button" class="btn btn-outline-green py-0 my-3">Recommend</button>
+                                    <h6 class="fw-bold text-dark">Business</h6>
+                                    <h1 class="green">19<span class="text-secondary" class="knightone-money">/ month</span></h1>
+                                    <p>Aida dere</p>
+                                    <p>Nec feugiat nisl</p>
+                                    <p>Nulla at volutpat dola</p>
+                                    <p>Pharetra massa</p>
+                                    <p><del>Massa ultricies mi</del></p>
+                                    <div type="button" class="btn green mt-auto rounded-pill btn-outline-green">Buy Now</div>
+                               </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body card-portfolio">
+                                <div class="d-flex flex-column align-items-center">
+                                    <h6 class="fw-bold text-dark mt-3">Developer</h6>
+                                    <h1 class="green">29<span class="text-secondary" class="knightone-money">/ month</span></h1>
+                                    <p>Aida dere</p>
+                                    <p>Nec feugiat nisl</p>
+                                    <p>Nulla at volutpat dola</p>
+                                    <p>Pharetra massa</p>
+                                    <p>Massa ultricies mi</p>
+                                    <div type="button" class="btn btn-outline-green green rounded-pill mb-auto">Buy Now</div>
+                               </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+           </div><!--containerのdiv-->
+      </div><!--knightone-pricingのdiv-->
+      <div class="knightone-question" class="px-5">
+                <div class="container">
+                    <div class="row">
+                         <div class="col-md-5 order-md-2">
+                              <div class="question-img">
+   
+                              </div>
+                         </div>
+                         <div class="col-md-7 order-md-1">
+                             <div class="text-start">
+                               <h1>Frequently Asked <span class="fw-bold">Questions</span></h1>
+                               <p class="py-5">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                               </p>
+                             </div>
+                             <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Non consectetur a erat nam at lectus urna duis?
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Feugiat scelerisque varius morbi enim nunc? 
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Dolor sit amet consectetur adipiscing elit? 
+                                    </button>
+                                  </h2>
+                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                         </div>
+                    </div>
+               </div><!--containerのdiv-->
+      </div><!--knightone-questionのdiv-->
+      <div class="knightone-contact" class="px-5">
+                <div class="container">
+                    <div class="text-start">
+                         <div class="h1-parent">
+                           <h1 class="fw-bold text-dark knightone-title theme">Contact</h1>
+                         </div>
+                         <p class="py-5">
+                           Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
+                           Sit sint consectetur velit. Quisquam quos quisquam cupiditate. 
+                           Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                         </p>
+                         <div class="mapouter mb-5"><div class="gmap_canvas">
+                             <iframe width="100%" height="200" class="gmap_canvas" src="https://maps.google.com/maps?q=%E5%8D%9A%E5%A4%9A%E9%A7%85&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>  
+                            <style>
+                                  .mapouter{
+                                      position:relative;
+                                      text-align:right;
+                                    }
+                            </style>
+                            <style>
+                                 .gmap_canvas {
+                                     overflow:hidden;
+                                     background:none!important;
+                                    }
+                            </style>
+                        </div>
+                    </div>
+                    <div class="row">
+                          <div class="col-md-4">
+                               <div class="d-flex mb-3 justify-content-start align-items-start">
+                                   <i class="fas fa-map-marker-alt green fa-2x pe-3"></i>
+                                   <div class="text-start">
+                                       <h4 class="fw-bold m-0">Location:</h4>
+                                       <p class="m-0">A108 Adam Street, New York, NY 535022</p>
+                                   </div>
+                               </div>
+                               <div class="d-flex mb-3 justify-content-start align-items-start">
+                                   <i class="far fa-envelope green fa-2x pe-3"></i>
+                                   <div class="text-start">
+                                       <h4 class="fw-bold m-0">Email:</h4>
+                                       <p class="m-0">info@example.com</p>
+                                   </div>
+                               </div>
+                               <div class="d-flex mb-3 justify-content-start align-items-start">
+                                   <i class="fas fa-phone-alt green fa-2x pe-3"></i>
+                                   <div class="text-start">
+                                       <h4 class="fw-bold m-0">Call:</h4>
+                                       <p class="m-0">+1 5589 55488 55s</p>
+                                   </div>
+                               </div>
+                          </div>
+                          <div class="col-md-8">
+                               <div class="d-md-flex justify-content-md-between">
+                                   <input type="name" class="form-control mb-3 me-3" class="exampleInputname" aria-describedby="nameHelp" placeholder="Your Name">
+                                   <input type="email" class="form-control mb-3" class="exampleInputEmail" aria-describedby="emailHelp" placeholder="Your Email">
+                              </div>
+                              <textarea class="form-control my-3" class="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                              <div class="text-center">
+                               <div type="button" class="btn green rounded-pill send">Send Message</div>
+                              </div>
+                          </div>
+                    </div>
+               </div><!--containerのdiv-->
+      </div><!--knightone-contactのdiv-->
+      <div class="knightone-footer mt-5" class="px-5">
+            <!--rowやcolを使わなくても常にcontaineを書いて見た目をよくする-->
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="fw-bold text-white">KnightOne</h1>
+                    <p class="text-white fw-italic">Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+                    <div class="d-flex justify-content-center my-5">
+                        <i class="fab fa-twitter-square green fa-2x me-3"></i>
+                        <i class="fab fa-facebook-square green fa-2x me-3"></i>
+                        <i class="bi bi-instagram green knightone-instagram me-3"></i><!--bootstrap5のアイコン-->
+                        <i class="fab fa-skype green fa-2x me-3"></i>
+                        <i class="fab fa-linkedin green fa-2x"></i>
+                    </div>
+                    <p class="text-white">© Copyright <span class="fw-bold">KnightOne</span>. All Rights Reserved</p>
+                    <p class="text-white">Designed by <class class="green">BootstrapMade</class></p>
+                </div>
+            </div><!--containerのdiv-->
+      </div><!--footerのdiv-->
+  </div>
+  <!--wrapperのdiv-->
+  <!--2行目のscriptはjqueryのcdnでcssとjsを両方貼り付ける。-->
+  <!--3行目のscriptはslickのcdnでcssとjsを両方貼り付ける。cssはheadに貼り付ける。-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+    $('.multiple-items').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 1
+  });
+  </script>
+   <script>
+    $(function() {
+      $('.filtering div').click(function() {
+        var value = $(this).attr('data-filter');
+        if (value == 'all') {
+          $('.filtering-list').show('1000');
+        } else {
+          $('.filtering-list').not('.'+value).hide('1000');
+          $('.filtering-list').filter('.'+value).show('1000');
+        }
+        $(document).on('click', '.filtering div', function () {
+          $('.filtering div').removeClass('active');
+          $(this).addClass('active');
+        });
+      });
+    });
+  </script>
+  <script src="script.js" defer></script>
+</body>
+</html>

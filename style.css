@@ -1,0 +1,312 @@
+@charset "utef-8";
+.wrapper{
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #fafafa;
+}
+
+.wrapper h1{
+    font-size: 2em;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h2{
+    font-size: 1.5em;
+    line-height: 2.25em;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h3{
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper p{
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h4{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    font-weight: normal;
+    color: #212121;
+}
+
+.wrapper h5{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    font-weight: normal;
+    color: #212121;
+}
+
+.border-bottom{
+    border-bottom: #212121 1px solid !important;
+}
+
+.green{
+    color: #4caf50 !important;
+}
+
+.blue{
+    color: #001970;
+}
+
+.purple{
+    color: #7b1fa2;
+}
+
+.no-space{
+    text-indent: -1em;
+}
+
+.knightone-top{
+    background-image: url(images/man-computer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+.knightone-about{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-call{
+    background-image: url(images/building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.knightone-main{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-computer-woman{
+    width: 100%;
+    height: 100%;
+}
+
+.knightone-signboard{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card-signboard{
+    width: 80%;
+    height: 80%;
+}
+
+.knightone-number{
+    background-image: url(images/number-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-portfolio{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-portfolio{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-portfolio-button{
+    filter: grayscale(100%);
+    border-radius: 1em;
+}
+
+.knightone-portfolio-button:hover{
+    filter: unset;
+    background-color: #4caf50;
+    color:#fafafa !important;
+}
+
+.knightone-pricing{
+    background-color: #f9f9f9;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-question{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.question-img{
+    background-image: url(images/question-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.knightone-contact{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-footer{
+    background-color: #0f0f0f;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.knightone-instagram{
+    font-size: 2rem;
+    margin-top: -0.5rem;
+}
+
+.knightone-money{
+    font-size: 1rem;
+}
+
+.theme-about::after{
+    display: block;
+    border-top: 10px solid #4caf50;
+    position: absolute;
+    width: 30%;
+    top: 4rem;
+    left: 0;
+    content: "";
+}
+
+.theme-about{
+    position: relative;
+}
+
+.theme::after{
+    display: block;
+    border-top: 5px solid #4caf50;
+    position: absolute;
+    width: 10%;
+    top: 4rem;
+    left: 0;
+    content: "";
+}
+
+.theme{
+    position: relative;
+}
+
+.card-portfolio{
+    padding-top: 4em;
+}
+
+.card-body{
+    padding-bottom: 2em;
+}
+
+.accordion-button{
+    background-color: transparent !important;
+}
+
+.accordion-button:hover{
+    color: #4caf50;
+    border: none;
+}
+
+.accordion-button::after:hover{
+    color: #4caf50 !important;
+}
+
+.btn-outline-green{
+    border-color: #4caf50;
+}
+
+.knightone-pricing .btn:hover{
+    background-color: #4caf50;
+    color: #fafafa !important;
+}
+
+.form-control{
+    border: 1px solid #4caf50;
+}
+
+.send{
+    background-color: #4caf50;
+    color: #fafafa !important;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0em;
+}
+
+ul li div{
+    margin-top: 0.5em;
+}
+
+.knightone-call{
+    margin-top: 5em;
+}
+
+.curology,.cookie-tea,.plant,.wood-chair,.stand,.glasses,.camera,.watch,.drink{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+.curology{
+    background-image: url(images/curology.jpg);
+    height: 30em;
+}
+
+.cookie-tea{
+    background-image: url(images/cookie-tea.jpg);
+    height: 20em;
+}
+
+.plant{
+    background-image: url(images/plant.jpg);
+    height: 15em;
+}
+
+.wood-chair{
+    background-image: url(images/wood-chair.jpg);
+    height: 40em;
+}
+
+.stand{
+    background-image: url(images/stand.jpg);
+    height: 40em;
+}
+
+.glasses{
+    background-image: url(images/glasses.jpg);
+    height: 20em;
+}
+
+.camera{
+    background-image: url(images/camera.jpg);
+    height: 20em;
+}
+
+.watch{
+    background-image: url(images/watch.jpg);
+    height: 20em;
+}
+
+.drink{
+    background-image: url(images/drink.jpg);
+    height: 20em;
+}
