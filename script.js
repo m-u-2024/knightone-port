@@ -1,3 +1,4 @@
+//「qurstion-img」クラスのアニメーション
 const question = (entries) =>{
     const keyframes ={
         opacity:[0,1],
@@ -10,6 +11,7 @@ const questionServer = new IntersectionObserver(question);
 
 questionServer.observe(document.querySelector('.question-img'));
 
+//「woman」クラスのアニメーション
 const woman = (entries) =>{
     const keyframes ={
         opacity:[0,1],
@@ -22,6 +24,7 @@ const womanServer = new IntersectionObserver(woman);
 
 womanServer.observe(document.querySelector('.knightone-computer-woman'));
 
+//「service-card」クラスのアニメーション
 const items = document.querySelectorAll('.service-card');
 
 for (let i = 0; i < items.length; i++) {
